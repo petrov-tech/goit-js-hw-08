@@ -3,7 +3,7 @@ import { throttle } from 'lodash';
 
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
-console.log('допоможіть розібратись з з методом catch, і чи потрібен він тут взагалі? помилки наче нема в плеері. наразі він в нотатках');
+console.log('допоможіть розібратись з з методом catch, і чи потрібен він тут взагалі? помилки наче нема в плеері? хочеться для розібратись, але не розумію цей метод(((');
 
 player.on(
   'timeupdate',
